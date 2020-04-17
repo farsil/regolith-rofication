@@ -22,7 +22,8 @@ Depends: ${misc:Depends},
          python3-dbus (>= 1.2.6),
          i3xrocks,
          regolith-i3xrocks-config,
-         gnome-flashback
+         gnome-flashback,
+	     systemd
 Description: Rofication notification system
 Provides: notification-daemon
 Replaces: notification-daemon

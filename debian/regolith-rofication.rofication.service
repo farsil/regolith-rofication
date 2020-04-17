@@ -1,0 +1,7 @@
+[Unit]
+Description=Notification system that provides a Rofi front-end
+
+[Service]
+Type=dbus
+BusName=org.freedesktop.Notifications
+ExecStart=rofication-daemon
